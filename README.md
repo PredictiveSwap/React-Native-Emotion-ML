@@ -68,22 +68,32 @@ The app performs sentiment analysis on text entries to determine emotional conte
 
 ```
 Emotion-ML/
-├── app/                    # Main application screens
-│   ├── _layout.tsx         # Root layout configuration
-│   └── index.tsx           # Main entry screen
-├── components/             # React components
-│   ├── FaceRecognition.tsx # Facial analysis component
-│   ├── MoodTracker.tsx     # Mood tracking component
+├── app/                        # Main application screens
+│   ├── _layout.tsx             # Root layout configuration
+│   ├── index.tsx               # Main entry screen
+│   ├── history.tsx             # Mood history screen
+│   ├── insights.tsx            # Insights and analytics screen
+│   └── settings.tsx            # App settings screen
+├── assets/                     # Static assets
+│   └── images/                 # Image resources
+├── components/                 # React components
+│   ├── FaceRecognition.tsx     # Facial analysis component
+│   ├── MoodTracker.tsx         # Mood tracking component
 │   ├── TextSentimentAnalysis.tsx # Text analysis component
-│   └── VoiceAnalysis.tsx   # Voice analysis component
-├── constants/              # App constants
-│   └── Colors.ts           # Color definitions
-├── hooks/                  # Custom React hooks
-│   └── useEmotionAnalysis.ts # Emotion tracking hook
-├── utils/                  # Utility functions
-│   └── index.ts            # Helper functions
-├── assets/                 # Static assets
-└── demo.MOV                # Demo video of the application
+│   └── VoiceAnalysis.tsx       # Voice analysis component
+├── constants/                  # App constants
+│   └── Colors.ts               # Color definitions
+├── hooks/                      # Custom React hooks
+│   └── useEmotionAnalysis.ts   # Emotion tracking hook
+├── utils/                      # Utility functions
+│   └── index.ts                # Helper functions
+├── .gitignore                  # Git ignore file
+├── app.json                    # Expo configuration
+├── demo.MOV                    # Demo video of the application
+├── LICENSE                     # MIT license file
+├── package.json                # Node.js dependencies
+├── README.md                   # Project documentation
+└── tsconfig.json               # TypeScript configuration
 ```
 
 ## 📈 Future Enhancements
