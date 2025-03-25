@@ -2,8 +2,6 @@
 
 A React Native mobile application for mood tracking and emotional well-being analysis through facial expressions, voice tone, and text sentiment analysis.
 
-![Emotion-ML Banner](https://via.placeholder.com/800x200/4CAF50/FFFFFF?text=Emotion-ML)
-
 ## ✨ Features
 
 - **🎭 Facial Expression Analysis**: Detects and analyzes facial expressions to determine emotional state
@@ -14,9 +12,8 @@ A React Native mobile application for mood tracking and emotional well-being ana
 
 ## 📱 Demo
 
-<p align="center">
-  <img src="https://via.placeholder.com/250x500/F5F5F5/333333?text=Demo+Screenshot" alt="App Demo" />
-</p>
+This project includes a demo video showing the app in action. You can find it in the root directory:
+- `demo.MOV`
 
 ## 🔧 Technologies Used
 
@@ -85,7 +82,8 @@ Emotion-ML/
 │   └── useEmotionAnalysis.ts # Emotion tracking hook
 ├── utils/                  # Utility functions
 │   └── index.ts            # Helper functions
-└── assets/                 # Static assets
+├── assets/                 # Static assets
+└── demo.MOV                # Demo video of the application
 ```
 
 ## 📈 Future Enhancements
@@ -108,10 +106,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/Emotion-ML](https://github.com/yourusername/Emotion-ML) 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
